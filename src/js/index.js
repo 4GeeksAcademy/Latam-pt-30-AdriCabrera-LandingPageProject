@@ -9,6 +9,6 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 import { NavBar } from "./component/navbar.jsx";
 
+
 //render your react application
-ReactDOM.render(<NavBar />, document.querySelector("#navbar"))
 ReactDOM.render(<Home />, document.querySelector("#app"));

@@ -3,10 +3,11 @@ import React from "react"
 export function Footer() {
     return (
         <footer>
-            <div class="container-fluid bg-dark h-100">
-
-                <p className="text-light text-center">Copyright @ Website 2024.</p>
-            </div>
+            <nav class="navbar navbar-light bg-dark">
+                <div class="container justify-content-center">
+                    <a class="navbar-brand text-light" href="#">Copyright @ Your Website 2018</a>
+                </div>
+            </nav>
         </footer>
     )
 }
